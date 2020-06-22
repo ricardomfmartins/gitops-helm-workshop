@@ -3,7 +3,7 @@ apiVersion: helm.fluxcd.io/v1
 kind: HelmRelease
 metadata:
   name: podinfo
-  namespace: prod
+  namespace: dev
   annotations:
     fluxcd.io/ignore: "true"
     fluxcd.io/automated: "false"
