@@ -13,4 +13,3 @@ spec:
     path: charts/loadtester
   values:
     fullnameOverride: load-tester
-    
