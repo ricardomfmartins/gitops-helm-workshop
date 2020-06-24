@@ -36,7 +36,7 @@ spec:
           cmd: "test podinfo"
       - name: acceptance-test
         type: pre-rollout
-        url: http://flagger-loa dtester.prod/
+        url: http://flagger-loadtester.prod/
         timeout: 30s
         metadata:
           type: bash
